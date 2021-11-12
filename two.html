@@ -1,0 +1,117 @@
+<html>
+    <head>
+        
+    </head>
+    <body dir="rtl">
+        <table border="3px">
+            <tr >
+                <td >
+                    نام
+                </td>
+                <td align="center" style="padding: 10px;">
+                    <input type="text" placeholder="name" >
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    ایمیل
+                </td>
+                <td align="center" style="padding: 10px;">
+                    <input type="email" placeholder="Email">
+
+                </td>
+
+            </tr>
+            <tr>
+                <td align="center" style="padding: 10px;">
+                    <input type="password">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    تاریخ تولد
+                </td>
+                <td align="center" style="padding: 10px;">
+                    <!-- <input type="date">  -->
+                    <input type="text" placeholder="05/25/1999"
+                        onfocus="(this.type='date')"
+                            onblur="(this.type='text')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    سن
+                </td>
+                <td align="center" style="padding: 10px;">
+                    <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    رنگ موردعلاقه
+                </td>
+                <td align="center" style="padding: 10px;">
+                    <input type="color" value="#101A95">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    ماسک مزنی یا نه یره؟&#128517;
+                </td>
+                <td align="center" style="padding: 10px;">
+                    <input type="radio" id="m" value="m" title="mznm" name="mask">
+                    <label for="m">مزنم&#128567</label><br>
+                    <input type="radio" id="n" value="n" title="nmznm" name="mask">
+                    <label for="m">نمزنم&#128539</label><br>
+                </td>
+              
+            </tr>
+            <tr>
+                <td>
+                    میوه موردعلاقه
+                </td>
+                <td>
+                    <input type="checkbox" id="banana">
+                    <label for="banana">🍌</label>
+                    <input type="checkbox" id="apple">
+                    <label for="apple">🍎</label>
+                    <input type="checkbox" id="cucumber">
+                    <label for="cucumber">🥒</label>
+                    <input type="checkbox" id="coconut">
+                    <label for="coconut">🥥</label>
+                    <input type="checkbox" id="cherries">
+                    <label for="cherries">🍒</label>
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    کشور
+                </td>
+                <td align="center" style="padding: 10px;">
+                    <select name="country" id="c">
+                        <option value="iran">ایران</option>
+                        <option value="french">فرانسه</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                زندگینامه
+                </td>
+                <td>
+                    <textarea placeholder="هرچه میخواهد دل تنگت..."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center" style="padding: 10px;">
+                    <input type="submit" value="نام نویسی">
+                </td>
+            </tr>
+        </table>
+
+
+    </body>
+</html>
