@@ -30,7 +30,6 @@
 
 .box-wrapper {
     position: relative;
-    /* padding-top: 100px; */
     margin: auto;
     width: 250px;
     height: 50px;
@@ -73,8 +72,6 @@ input[type="checkbox"] {
 #signin{
     background-color:rgb(230, 77, 103);
     border: 0px solid;
-    width: 200px;
-    height: 60px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -87,6 +84,34 @@ input[type="checkbox"] {
     font-size: 15px;
     padding:auto;
 
+}
+h3{
+    color: rgb(202, 202, 202);
+    position: absolute;
+    top:380px;
+    left: 40%;
+    font-size: 12px;
+}
+.btns{
+
+    top: 430px;
+    position: absolute;
+    margin-left: 55px;
+    width: 120px;
+    height: 30px;
+    border: 0px ;
+    background-color:rgb(236, 236, 236);
+    padding-left: 2px;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;  
+}
+h4 , a{
+    color: rgb(216, 216, 216);
+    position: absolute;
+    top:95%;
+    font-size: 11px;
+    margin: auto;
+    left:30%;
 }
         </style>
     </head>
@@ -105,6 +130,12 @@ input[type="checkbox"] {
             <label for="chk" id="rem">Remember me</label>
 
             <input type="button" id="signin" value="Login">
+            <h3>
+                Or login with
+            </h3>
+            <button title="Facebook" class="btns" style="color: blue;">  <img src="images/facebook.png" style=" position: absolute; top: 5px; left:3px ; width: 20px; height: 20px;"> Facebook</button>
+            <button title="Google" class="btns" style="left: 130px;">  <img src="images/google.png" style="position: absolute; top: 5px; left:3px ; width: 20px; height: 20px;"> Google</button>
+            <h4>Not a member?Sign up now</h4>
         </div>
 
     </body>
