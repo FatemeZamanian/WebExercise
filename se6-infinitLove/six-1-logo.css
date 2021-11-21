@@ -1,0 +1,65 @@
+.sq{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color:rgb(0, 191, 255);
+    border: 10px rgb(72,209,204) solid;
+    margin: auto;
+    top: 120px;
+    left: 550px;
+    transform: rotate(45deg);
+    border-top: solid transparent 10px;
+    border-left: solid transparent 10px;
+}
+.cir1{
+    position:absolute;
+    width: 152px;
+    height: 152px;
+    background-color:rgb(0, 191, 255);
+    border: 10px rgb(0, 191, 255);
+    top:58px;
+    left:492px;
+    border-radius: 50%;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    
+
+}
+.cir2{
+    position:absolute;
+    width: 152px;
+    height: 152px;
+    background-color:rgb(0, 191, 255);
+    border: 10px rgb(0, 191, 255);
+    top:58px;
+    left:610px;
+    border-radius: 50%;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+}
+
+.inf1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:340px;
+    left:475px;
+    border:rgb(72,209,204) 20px solid;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: rotate(45deg);
+}
+.inf2{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top:340px;
+    left:650px;
+    border:rgb(72,209,204) 20px solid;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    transform: rotate(-45deg);
+}

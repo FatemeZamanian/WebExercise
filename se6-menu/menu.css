@@ -1,0 +1,43 @@
+.menu{
+    list-style-type: none;
+    background-color: rgb(1, 0, 44);
+    overflow: auto;    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.menu li{
+    float: left;
+    width: 150px;
+    border: 2px solid pink;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+}
+.menu li:hover{
+    background-color: tomato;
+    border-radius: 35%;
+}
+
+.submenu{
+    list-style-type: none;
+    background-color:transparent;
+    overflow: auto;
+    padding-left: 0px;
+    position: absolute;
+    display: none;
+    top:60px;
+}
+.submenu li{
+    float: none;
+    background-color: rgb(1, 0, 44);
+}
+.submenu li:hover{
+    background-color: tomato;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
