@@ -1,0 +1,414 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 19);
+}
+  
+.menu{
+    list-style-type: none;
+    margin:0%;
+    padding: 0%;
+    overflow: auto;
+    display: flex;    
+    position: fixed;
+    width: 100%;
+    background-color:rgb(0, 0, 19);
+    z-index: 100;
+    overflow:visible;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(237, 120, 102);
+    justify-self: center;
+    overflow:visible;
+}
+
+.menu .btn{
+    float:right;
+    margin:0.2% 0% 0.2% 38%;
+    position: relative;
+    
+    width: 4%;
+    text-align: center;
+    background-color:rgb(0, 0, 19);
+    border: none;
+    
+
+
+}
+.menu li{
+    float: left;
+    width: 6%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px;
+    justify-self: center;
+    justify-content: center;
+}
+.menu button:hover , li:hover , li:hover a{
+    background-color: rgb(237, 120, 102);
+    color: white;
+}
+
+#logo{
+    width: 4%;
+    margin: 0%;
+    /* height: 0.5%; */
+    padding:0.5% 0%;
+}
+
+
+#slider{
+    width: 100%;
+    height:60%;
+    margin:0%;
+    position:static;
+}
+
+#slider-btn{
+    position: relative;
+    z-index: 10;
+    top: -10%;
+    width: 10%;
+    height: 8%;
+    left: 1%;
+    border: none;
+    background-color: rgb(255, 120, 102);
+}
+
+.team {
+    width: 100%;
+    /* height: 90%; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin: 2% 0%;
+    /* background-color: blueviolet; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+.mm_col{
+    width: 23%;
+    margin: 1% 1% ;
+    text-align: center;
+    color: rgb(245,202,194);
+}
+
+.mm_col h2{
+    font-size:2vw;
+    line-height: 0.5vw;
+}
+.mm_col p{
+    font-size:1vw;
+}
+.member{
+    text-align: center;
+}
+.mm_img{
+    border-radius: 100%;
+    width: 80%;
+    height: 80%;
+}
+
+.mm_img:hover{
+    opacity: 20%;
+}
+
+#gray{
+    background-color: rgb(245,202,194);
+    width: 100%;
+    /* height: 90%; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+#gray :first-child{
+
+    background-color: transparent;
+    color: rgb(0, 0, 19);;
+}
+
+.in_gray{
+    width: 23%;
+    margin: 3% 1% ;
+    background-color: rgb(255, 120, 102);
+    color: rgb(0,0,19);
+}
+
+.in_gray h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-left: 3%;
+
+}
+
+.in_gray p{
+    margin-left: 4%;
+    line-height: 23px;
+
+}
+
+.in_gray .img{
+    width: 100%;
+    height: 50%;
+}
+
+
+#pls_btn{
+    border-radius: 100%;
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: -5%;
+    left:94%;
+    box-sizing: content-box;
+    padding: 0%;
+    border:none;
+}
+
+#pls_btn:hover{
+    background-color: rgb(245,202,194);
+    cursor: pointer;
+}
+#pls_btn img{
+    width: 50px;
+    height: 50px;
+    margin: 0%;
+    border:0% solid transparent;
+    
+}
+
+#pricing{
+    width: 100%;
+    /* height: 90%; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+
+.in_price{
+    width: 31%;
+    margin: 0% 1% ;
+    padding: 0%;
+    height: 400px;
+    background-color: transparent;
+}
+
+.in_price table:hover{
+    box-shadow: 10px 10px 20px rgb(245,202,194);
+}
+
+.in_price table{
+    width: 100%;
+    text-align: center;
+    margin: 0%;
+    height: 100%;
+    background: transparent;
+    color: rgb(255, 120, 102);
+    /* border: none; */
+    margin: 0%;
+    border: 1px solid rgb(237, 120, 102);
+    
+}
+
+td button{
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    background-color: rgb(148, 241, 148);
+    border: none;
+}
+
+
+td button:hover{
+    background-color: rgb(245,202,194);
+}
+
+table td{
+    border-bottom: 0.5px solid rgb(245,202,194);
+}
+
+
+#form{
+    margin-top: 5%;
+    /* background-color: aqua; */
+    background-color: rgb(15,21,50);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    color: rgb(245,202,194);
+    
+}
+
+#contact-us{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    padding: 5%;
+}
+#contact-us h2{
+    font-size: 3vw;
+}
+
+#contact-us p{
+    font-size: 1vw;
+}
+
+#inputs{
+    width: 45%;
+    padding: 1%;
+    margin: 3% 8% 4% 0%;
+    /* border: solid rgb(255, 120, 102) 0.5px; */
+    font-size: 2vw;
+    border: none;
+    
+    
+}
+#inputs:hover{
+    box-shadow: 8px 8px 50px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 3px solid grey;
+    box-sizing: border-box;
+    height: 10%;
+    background-color:rgb(15,21,50);
+  }
+  
+  input[type=submit] {
+    width: 20%;
+    /* float: right; */
+    background-color: rgb(237, 120, 102);
+    color: white;
+    /* padding: 14px 20px; */
+    margin: 0% 0% 0% 60%;
+    border: none;
+    /* border-radius: 4px; */
+    
+    cursor: pointer;
+    font-size: 1vw;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+#map{
+    width: 100%;
+    height: 200%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#map img{
+    margin: 0%;
+    height: 100%;
+}
+#footer{
+    width: 100%;
+    background-color: black;
+    color: blanchedalmond;
+    margin: 0%;
+    text-align: center;
+}
+
+#footer div{
+    width: 27%;
+    margin: 1% 37%;  
+}
+
+.icon {
+  padding: 3%;
+  font-size: 30px;
+  width: 5%;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 1% 1%; */
+  background-color: rgb(245,202,194);
+}
+
+.icon img{
+    width: 100%;
+}
+
+.icon:hover {
+    background-color: rgb(148, 241, 148);
+}
+
+
+#footer h2{
+    padding-top: 3%;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(237, 120, 102);
+}
+
+
+@media screen and (max-width: 540px) {
+    #logo{
+        
+        display: none;
+    }
+
+    .mm_col{
+        width: 44%;
+    }
+
+
+    #gray :first-child{
+
+        width: 100%;
+    }
+    
+
+    .in_gray{
+        width: 31%;
+    }
+
+    #pls_btn{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .menu {   
+      flex-direction: column;
+      position: fixed;
+      justify-content: stretch;
+      justify-items: stretch;
+      
+    }
+    #logo{
+        
+        display: none;
+    }
+
+    .mm_col{
+        width: 100%;
+    }
+    .in_gray{
+        width: 99%;
+}
+#pls_btn{
+    display: none;
+}
+
+.in_price{
+    width: 98%;
+}
+
+}
