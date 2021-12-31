@@ -211,12 +211,12 @@ padding: 20px;
    }
 
 .glass-menu{
-    width: 50%;
+    width: 80%;
     height: 100px;
     position:absolute;
     align-self: center;
     top:400px;
-    left:300px;
+    left:100px;
     overflow-x: scroll;
     /* margin-top: 0px; */
     /* background-color: green; */
@@ -229,9 +229,9 @@ padding: 20px;
 }
 
 .glass-menu div{
-    padding: 1%;
+    padding: 0.5%;
     margin: 1%;
-    width: 7%;
+    width: 8%;
     text-align: center;
     position: relative;
 }
