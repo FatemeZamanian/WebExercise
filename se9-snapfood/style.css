@@ -8,10 +8,102 @@ body{
     font-family: "IranSans";
 }
 
+/* navbar */
+
+#navbar{
+    width: 100%;
+    height:150px;
+    position: fixed;
+    background-color: white;
+    z-index: 20;
+    margin-top: 0px;
+    top: 0px;
+}
+
+#navbar .divs{
+    display: flex;
+}
+
+.pink{
+    width: 10%;
+    position: relative;
+    display: flex;
+    top: 15px;
+    height: 17px;
+    background-color:rgb(231, 148, 190);
+    font-size: 0.4vw;
+    color: palevioletred;
+    border: solid transparent;
+    border-radius: 100px;
+    margin-left: 10%;
+    font-size: 0.5vw;
+    text-align: center;
+
+}
+
+
+.navbar-bar{
+    /* margin:0 auto; */
+    width:25%;
+    top: 15px;
+    height: 40px;
+    border-radius:10px;
+    border:1px solid rgb(197, 197, 197);
+    position:relative;
+    left:-6%;
+    display: flex;
+    background-color: rgb(197, 197, 197);
+}
+
+.navbar-searchbar{
+    border:none;
+    font-size:16px;
+    outline: none;
+    margin-left: 10%;
+    width:80%;
+    background: transparent;
+    text-align: right;
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(197, 197, 197);
+    }
+.navbar-bar button{
+    width: 15%;
+    margin: 0.5%;
+    background-color: white;
+    border:transparent 0px;
+    background-color: rgb(197, 197, 197);   
+}
+    
+.navbar-bar button img{
+    width: 80%;
+}
+
+.navbar-col{
+    width: 16%;
+    display: block;
+    padding: 2%;
+    margin-top: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+.navbar-col img{
+    width: 50%;
+    height: 55%;
+}
+.navbar-col p{
+    position: relative;
+    font-size: 0.6vw;
+}
+
+
 /* 
 first section */
 
 #first{
+    top:150px;
+    position: relative;
     background-color: rgb(240, 240, 240);
     padding: 5px;
     overflow: hidden;
@@ -125,7 +217,7 @@ padding: 20px;
     align-self: center;
     top:400px;
     left:300px;
-    overflow: scroll;
+    overflow-x: scroll;
     /* margin-top: 0px; */
     /* background-color: green; */
     background-color: rgba(255, 255, 255, .15);  
@@ -157,10 +249,11 @@ padding: 20px;
 
 .second{
     width: 60%;
+    position: relative;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 130px;
     /* height: 150px; */
     overflow:visible;
     /* background-color: turquoise; */
@@ -208,6 +301,7 @@ padding: 20px;
 
 #thr_sec{
     background-color: rgb(199, 199, 199);
+    position: relative;
     width: 60%;
     margin: auto;
     display: flex;
