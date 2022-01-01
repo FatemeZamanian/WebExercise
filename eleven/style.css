@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Android";
+    src: url("DroidLogo-Bold.ttf");
+}
+
+
+body{
+    margin:0px;
+
+}
+
+#main{
+
+    background-color: white;
+    width: 60%;
+    height: 700;
+    align-items: center;
+    margin: auto;}
+
+
+#left-anten{
+    width: 6px;
+    height: 60px;
+    position: absolute;
+    top: 66px;
+    border-radius: 3px;
+    left: 580px;
+    transform: rotate(-30deg);
+    background-color: chartreuse;
+}
+
+
+#right-anten{
+    width: 6px;
+    height: 60px;
+    position: absolute;
+    top: 66px;
+    border-radius: 3px;
+    left: 760px;
+    transform: rotate(30deg);
+    background-color: chartreuse;
+}
+
+
+#head{
+    background-color: chartreuse;
+    position: relative;
+    width: 25%;
+    height: 100px; /* as the half of the width */
+    border-top-left-radius: 300px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 300px; /* 100px of height + 10px of border */
+    border: 0px solid gray;
+    left:300px;
+    top: 80px;
+    display: flex;
+
+}
+
+#left-eye{
+    background-color: white;
+    width: 20px;
+    border-radius: 100%;
+    height: 20px;
+    position: relative;
+    left:20%;
+    top: 36%;
+}
+
+#right-eye{
+    background-color: white;
+    width: 20px;
+    border-radius: 100%;
+    height: 20px;
+    position: relative;
+    left:60%;
+    top: 36%;
+}
+
+#body{
+    background-color: chartreuse;
+    position: relative;
+    width: 25%;
+    top: 100px;
+    left :300px;
+    height: 200px;
+    border-radius:0px 0px 20px 20px;
+}
+
+#left-hand{
+    position: absolute;
+    left:508px;
+    top:200px;
+    background-color: chartreuse;
+    width: 50px;
+    height: 160px;
+    border-radius: 40px;
+}
+
+#right-hand{
+    position: absolute;
+    left:785px;
+    top:200px;
+    background-color: chartreuse;
+    width: 50px;
+    height: 160px;
+    border-radius: 40px;
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+
+#right-leg{
+    position: absolute;
+    left:690px;
+    top:400px;
+    background-color: chartreuse;
+    width: 50px;
+    height: 100px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+
+#left-leg{
+    position: absolute;
+    left:610px;
+    top:400px;
+    background-color: chartreuse;
+    width: 50px;
+    height: 100px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+h2{
+    position: absolute;
+    top: 430px;
+    left: 476px;
+    font-family:"Android";
+    font-size: 88px;
+    color: rgb(90, 89, 89);
+}

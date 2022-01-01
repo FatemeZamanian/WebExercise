@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="style.css" >
+
+    </head>
+    <body>
+        <div id="main">
+            <div id="left-anten"></div>
+            <div id="right-anten"></div>
+            <div id="head">
+                <div id="left-eye"></div>
+                <div id="right-eye"></div>
+            </div>
+            <div id="body"></div>
+            <div id="left-hand"></div>
+            <div id="right-hand"></div>
+            <div id="right-leg"></div>
+            <div id="left-leg"></div>
+            <h2 >ANDROID</h2>
+        </div>
+        <script>
+            var right_hand=document.getElementById("right-hand");
+            var left_hand=document.getElementById("left-hand");
+            var shemak=document.getElementById("body");
+            var kale=document.getElementById("head");
+            var left_eye=document.getElementById("left-eye");
+            var right_eye=document.getElementById("right-eye");
+
+            right_hand.onclick=function(){
+                let flag=true
+                for (let i = 0; i < 15; i++) {
+                    if (flag==true){
+                        right_hand.style.transform='rotate(60deg)';
+                        right_hand.style.transition='2s';
+                        flag=false;
+                    }
+                    else{
+                        setTimeout(function(){right_hand.style.transform='rotate(-30deg)';right_hand.style.transition='4s';},1000)
+                        flag=true;
+
+                    } 
+                }
+                setTimeout(function(){right_hand.style.transform='rotate(30deg)';right_hand.style.transition='4s';},1000)
+            };
+
+            left_hand.onclick=function(){
+                let flag=true
+                for (let i = 0; i < 15; i++) {
+                    if (flag==true){
+                        left_hand.style.transform='rotate(-60deg)';
+                        left_hand.style.transition='2s';
+                        flag=false;
+                    }
+                    else{
+                        setTimeout(function(){left_hand.style.transform='rotate(30deg)';left_hand.style.transition='4s';},1000)
+                        flag=true;
+
+                    } 
+                }
+                setTimeout(function(){left_hand.style.transform='rotate(-30deg)';left_hand.style.transition='4s';},1000)
+            };
+
+            shemak.onclick=function(){
+                left_eye.style.height='3px';
+                right_eye.style.height='3px';
+                left_eye.style.backgroundColor="black";
+                right_eye.style.backgroundColor="black";
+                
+            }
+
+            kale.onmousemove=function(){
+                left_eye.style.height='20px';
+                right_eye.style.height='20px';
+
+            }
+
+        </script>
+
+    </body>
+</html>
