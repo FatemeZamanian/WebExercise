@@ -46,9 +46,9 @@ body{
     background-color: chartreuse;
     position: relative;
     width: 25%;
-    height: 100px; /* as the half of the width */
-    border-top-left-radius: 300px;  /* 100px of height + 10px of border */
-    border-top-right-radius: 300px; /* 100px of height + 10px of border */
+    height: 100px;
+    border-top-left-radius: 300px;  
+    border-top-right-radius: 300px;
     border: 0px solid gray;
     left:300px;
     top: 80px;
