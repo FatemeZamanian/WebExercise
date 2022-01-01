@@ -24,7 +24,7 @@ body{
     position: absolute;
     top: 66px;
     border-radius: 3px;
-    left: 580px;
+    left: 39%;
     transform: rotate(-30deg);
     background-color: chartreuse;
 }
@@ -36,7 +36,7 @@ body{
     position: absolute;
     top: 66px;
     border-radius: 3px;
-    left: 760px;
+    left: 51%;
     transform: rotate(30deg);
     background-color: chartreuse;
 }
@@ -46,11 +46,11 @@ body{
     background-color: chartreuse;
     position: relative;
     width: 25%;
-    height: 100px; /* as the half of the width */
-    border-top-left-radius: 300px;  /* 100px of height + 10px of border */
-    border-top-right-radius: 300px; /* 100px of height + 10px of border */
+    height: 100px;
+    border-top-left-radius: 300px;  
+    border-top-right-radius: 300px; 
     border: 0px solid gray;
-    left:300px;
+    left:30%;
     top: 80px;
     display: flex;
 
@@ -81,37 +81,34 @@ body{
     position: relative;
     width: 25%;
     top: 100px;
-    left :300px;
+    left :30%;
     height: 200px;
     border-radius:0px 0px 20px 20px;
 }
 
 #left-hand{
     position: absolute;
-    left:508px;
+    left:34%;
     top:200px;
     background-color: chartreuse;
-    width: 50px;
+    width: 3.5%;
     height: 160px;
     border-radius: 40px;
 }
 
 #right-hand{
     position: absolute;
-    left:785px;
+    left:53.5%;
     top:200px;
     background-color: chartreuse;
-    width: 50px;
+    width: 3.5%;
     height: 160px;
     border-radius: 40px;
-    transition-property: transform;
-    transition-duration: 3s;
-    transition-delay: 1s;
 }
 
 #right-leg{
     position: absolute;
-    left:690px;
+    left:48%;
     top:400px;
     background-color: chartreuse;
     width: 50px;
@@ -122,7 +119,7 @@ body{
 
 #left-leg{
     position: absolute;
-    left:610px;
+    left:40%;
     top:400px;
     background-color: chartreuse;
     width: 50px;
@@ -133,7 +130,7 @@ body{
 h2{
     position: absolute;
     top: 430px;
-    left: 476px;
+    left: 30%;
     font-family:"Android";
     font-size: 88px;
     color: rgb(90, 89, 89);
