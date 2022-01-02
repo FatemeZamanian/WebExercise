@@ -1,0 +1,575 @@
+@font-face {
+    font-family: "IranSans";
+    src: url("ir_sans.ttf");
+}
+
+#body{
+    margin: 0%;
+    font-family: "IranSans";
+}
+
+/* navbar */
+
+#navbar{
+    width: 100%;
+    height:150px;
+    position: fixed;
+    background-color: white;
+    z-index: 20;
+    margin-top: 0px;
+    top: 0px;
+}
+
+#navbar .divs{
+    display: flex;
+}
+
+.pink{
+    width: 10%;
+    position: relative;
+    display: flex;
+    top: 15px;
+    height: 17px;
+    background-color:rgb(231, 148, 190);
+    font-size: 0.4vw;
+    color: palevioletred;
+    border: solid transparent;
+    border-radius: 100px;
+    margin-left: 10%;
+    font-size: 0.5vw;
+    text-align: center;
+
+}
+
+
+.navbar-bar{
+    /* margin:0 auto; */
+    width:22%;
+    top: 15px;
+    height: 40px;
+    border-radius:10px;
+    border:1px solid rgb(197, 197, 197);
+    position:relative;
+    left:-6%;
+    display: flex;
+    background-color: rgb(197, 197, 197);
+}
+
+.navbar-searchbar{
+    border:none;
+    font-size:16px;
+    outline: none;
+    margin-left: 10%;
+    width:80%;
+    background: transparent;
+    text-align: right;
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(197, 197, 197);
+    }
+.navbar-bar button{
+    width: 15%;
+    margin: 0.5%;
+    background-color: white;
+    border:transparent 0px;
+    background-color: rgb(197, 197, 197);   
+}
+    
+.navbar-bar button img{
+    width: 80%;
+}
+
+.navbar-col{
+    width: 16%;
+    display: block;
+    padding: 2%;
+    margin-top: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+.navbar-col img{
+    width: 50%;
+    height: 55%;
+}
+.navbar-col p{
+    position: relative;
+    font-size: 0.6vw;
+}
+
+#darkbtn{
+    position: relative;
+    width: 3%;
+    height: 40px;
+    left:-6%;
+    top: 15px;
+    border: 0px;
+    background-color: rgb(255, 219, 225);
+    border-radius: 10px;
+}
+
+
+#imgdark{
+    width: 100%;
+}
+
+/* 
+first section */
+
+#first{
+    top:150px;
+    position: relative;
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    width: 60%;
+    height: 500px;
+    margin:auto;
+    margin-top: 30px;
+}
+#firstlogo{
+    width: 22%;
+    height: 50px;
+    position:relative;
+    top:50px;
+    left:750px;
+
+}
+#login{
+    background-color: rgb(204, 17, 79);
+    width: 20%;
+    position: relative;
+    left: 250px;
+    top:15px;
+    height: 45px;
+    border: transparent;
+    border-radius: 10%;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#register{
+    color: gray;
+    position: relative;
+    left: 450px;
+    top:15px;
+    white-space: nowrap;
+    border:none;
+    font-size: 1vw;
+    vertical-align:middle;
+    height: 45px;
+    width: 20%;   
+    background: none;
+    cursor: pointer;
+}
+
+#title{
+    font-size: 2vw;
+    /* font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    position: relative;
+    white-space: nowrap;
+    top:100px;
+    left: 1050px;
+}
+
+#firsth4{
+    position: relative;
+    left: 1250px ;
+    opacity: 60%;
+    font-size: 0.7vw;
+    white-space: nowrap;
+    top: 150px;
+}
+
+
+.bar{
+    /* margin:0 auto; */
+    width: 330px;
+    height: 40px;
+    border-radius:30px;
+    border:1px solid gray;
+    position:relative;
+    left:1500px;
+    top: 250px;
+    display: flex;
+}
+.searchbar{
+border:none;
+font-size:16px;
+outline: none;
+margin-left: 10%;
+width:330px;
+background: transparent;
+text-align: right;
+background-image: url(images/place.png);
+background-size: 8%;
+background-repeat: no-repeat;
+background-position: 96% 40%;
+padding: 20px;
+}
+.bar button{
+    background-color: rgb(204, 17, 79);
+    border-radius: 100%;
+    width: 10%;
+    margin: 0.5%;
+    border:transparent 0px;   
+}
+
+.bar button img{
+  width: 75%;
+}
+
+.searchbar:focus{
+    background-image:none;
+   }
+
+.glass-menu{
+    width: 80%;
+    height: 100px;
+    position:absolute;
+    align-self: center;
+    top:400px;
+    left:100px;
+    overflow-x: scroll;
+    /* margin-top: 0px; */
+    /* background-color: green; */
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border:transparent solid;
+    border-radius: 10px;
+    display: flex;
+    /* margin: 0px -200px; */
+}
+
+.glass-menu div{
+    padding: 0.5%;
+    margin: 1%;
+    width: 8%;
+    text-align: center;
+    position: relative;
+}
+
+.glass-menu div img{
+    height: 50%;
+}
+.glass-menu div p{
+    opacity: 60%;
+    font-size: 0.55vw;
+}
+
+
+/* sec_section */
+
+.second{
+    width: 60%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    /* height: 150px; */
+    overflow:visible;
+    /* background-color: turquoise; */
+}
+.second div{
+    width: 14%;
+    margin:1% 1%;
+    background:transparent;
+    background-position: center;
+    background-size: 100%;
+    background-clip: border-box;
+    height: 60px;
+    background-repeat: no-repeat;
+    padding: 0%;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    /* background-color: teal; */
+}
+
+.second div .sec-divs{
+    background-color:white;
+    top:50%;
+    width: 46%;
+    display: flex;
+    margin-right: 0px;
+    height: 35%;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 0.52vw;
+    border: solid transparent 0px;
+    border-radius: 10px 0px 0px 0px;
+    margin-top: 35%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.second div .sec-divs img{
+    height: 50%;
+    margin: 0px 5px;
+    
+}
+
+/* thr_section */
+
+
+#thr_sec{
+    background-color: rgb(199, 199, 199);
+    position: relative;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 140px;
+    padding-right: 3%;
+    overflow: visible;
+    border-bottom-right-radius: 100px;
+}
+
+#thr_sec #ax-bozorg{
+    width: 42%;
+    position:relative;
+    /* top: -50px; */
+    margin-top: -220px;
+}
+
+#thr_sec div{
+    margin-top: 60px;
+
+}
+#thr_sec div p{
+    font-size: 2vw;
+}
+
+
+.thr_bar{
+    margin:0px;
+    width: 70%;
+    position:relative;
+    top: -45px;
+    height: 10%;
+    border-radius:5px;
+    border:1px solid transparent;
+    display: flex;
+    background-color: white;
+}
+.thr_bar input{
+font-size:16px;
+margin-left: 10%;
+width:50%;
+background: transparent;
+text-align: right;
+padding: 20px;
+border: none;
+border-color: transparent;
+margin-bottom: 0%;
+}
+
+.thr_bar button{
+    background-color: rgb(204, 17, 79);
+    width: 40%;
+    color: white;
+    font-size: 1vw;
+    margin: 2%;
+    /* float: left; */
+    border:transparent 0px;
+    border-radius: 5px;  
+}
+
+input:focus {
+    outline:none;
+}
+#blacks{
+    display: flex;
+    margin-top: 0%;
+    padding: 0%;
+}
+#blacks .col{
+    margin-top: 0px;
+    width: 18%;
+    padding: 10px;
+}
+#blacks .col img{
+    width: 100%;
+}
+#blacks .col a{
+    width: 100%;
+}
+
+
+/* forth_sec */
+
+#frt_sec{
+    width: 60%;
+
+    margin: auto;
+    padding-right: 3%;
+    display: flex;
+    padding-top: 3%;
+    margin-bottom: 100px;
+    
+}
+
+
+#frt_sec img{
+    width: 30%;
+    margin-left: 0%;
+}
+
+#frt_sec .txts{
+    /* background-color: chartreuse; */
+    margin-left: 200px;
+}
+
+#fourp{
+   padding-top: 2%;
+    font-size: 2vw;
+    
+}
+#frt_sec .txts h5{
+    font-size: 0.8vw;
+    color: gray;
+ }
+
+#register_store{
+    color: white;
+    position: relative;
+    white-space: nowrap;
+    border:solid transparent;
+    border-radius: 10px;
+    background-color: rgb(219, 76, 100);
+    font-size: 1vw;
+    vertical-align:middle;
+ 
+    width: 40%;   
+    cursor: pointer;
+}
+
+/* fiv sec */
+
+#fiv_sec{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px rgb(192, 192, 192);
+    /* margin-right: 1%; */
+}
+#fiv_sec .col{
+    width: 8%;
+    margin: 0%;
+}
+#fiv_sec .col a{
+    color: gray;
+    font-size: 10px;
+}
+/* footer */
+#footer{
+
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+#footer .col{
+    width: 23%;
+}
+#logofooter{
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+#footer .flx{
+    display: flex;
+}
+#footer .flx p{
+    color: indianred;
+    line-height: 0.2px;
+}
+#footer .socials{
+    display: flex;
+    width: 70%;
+    height: 25px;
+    margin-right: 150px;
+    margin-top: -10px;
+}
+
+.sbtn{
+    width: 23%;
+    height: 100%;
+    border-radius: 350px;
+    border:transparent 0px;   
+    background-color: rgb(214, 214, 214);
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+.sbtn img{
+    width: 100%;
+    align-self: center;
+    vertical-align:middle;
+    height: 100%;
+}
+
+.txtcol{
+    font-size: 0.8vw;
+    margin-right: 100px;
+    line-height: 22px;
+}
+
+#imgcol{
+    width: 71px;
+    height: 75px;
+    float: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    #first{
+        width:100%
+    }
+    #login{
+   display: none;
+    }
+    
+    #register{
+        display: none;
+    }
+
+    .second{
+        width: 100%;
+        margin: 0px;
+    }
+
+    .second div{
+        width: 23%;
+    }
+
+    .second div .sec-divs{
+        top:120%;
+        height: 50%;
+    }
+
+    #thr_sec{
+        width: 98%;
+    }
+
+    #blacks{
+        flex-wrap: wrap;
+    }
+
+    #blacks .col{
+        width: 40%;
+        
+    }
+    #frt_sec{
+        width: 100%;
+    }
+
+    #fiv_sec .col{
+        width: 16%;
+    }
+
+}
