@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <div id="main">
+            <label id="label"></label>
+            <div id="buttons">
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btnAC">AC</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btnpm">+/-</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btnPS">%</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btndiv">/</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn7">7</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn8">8</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn9">9</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btnmul">x</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn4">4</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn5">5</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn6">6</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btnsub">-</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn1">1</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn2">2</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btn3">3</button> 
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btnsum">+</button>
+                </div>
+                <div id="btnzerocol">
+                    <button type="button" class="btns" value="" id="btn0">0</button>  
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btndot">.</button>  
+                </div>
+                <div class="col">
+                    <button type="button" class="btns" value="" id="btneq">=</button>  
+                </div>
+                
+
+            </div>
+        </div>
+
+        <script>
+            var txt=document.getElementById("label");
+            var btn1=document.getElementById("btn1");
+            var btn2=document.getElementById("btn2");
+            var btn3=document.getElementById("btn3");
+            var btn4=document.getElementById("btn4");
+            var btn5=document.getElementById("btn5");
+            var btn6=document.getElementById("btn6");
+            var btn7=document.getElementById("btn7");
+            var btn8=document.getElementById("btn8");
+            var btn9=document.getElementById("btn9");
+            var btn0=document.getElementById("btn0");
+            var btnac=document.getElementById("btnAC");
+            var btnpm=document.getElementById("btnpm");
+            var btnps=document.getElementById("btnPS");
+            var btndot=document.getElementById("btndot");
+            var btnsum=document.getElementById("btnsum");
+            var btnsub=document.getElementById("btnsub");
+            var btndiv=document.getElementById("btndiv");
+            var btnmul=document.getElementById("btnmul");
+            var btneq=document.getElementById("btneq");
+
+
+            var num1,op,num2,ans;
+            function numbers(val) {
+                txt_t=txt.innerText;
+                txt.innerText=txt_t+val;
+            }
+            function operator(opp){
+                num1=parseFloat(txt.innerText)
+                txt.innerText=""
+                op=opp
+            }
+            function answer(){
+                num2=parseFloat(txt.innerText)
+                if (op=="+"){ans=num1+num2}
+                else if(op=="-"){ans=num1-num2}
+                else if(op=="/"){ans=num1/num2}
+                else if(op=="*"){ans=num1*num2}
+                txt.innerText=ans
+            }
+
+            function pressed(btn){
+                btn.style.boxShadow = "inset 5px 5px 10px #a3cfdc,inset -5px -5px 10px #cfffff";
+                
+            }
+            function museup(btn){
+                btn.style.boxShadow = " 5px 5px 10px #a3cfdc, -5px -5px 10px #cfffff";
+                
+            }
+            function ac(){
+                txt.innerText=""
+                num1=0
+                num2=0
+                op=""
+            }
+
+            
+            btn1.onmousedown=function(){numbers(1);pressed(btn1);}
+            btn1.onmouseup=function(){museup(btn1);};
+            btn2.onmousedown=function(){numbers(2);pressed(btn2)};
+            btn2.onmouseup=function(){museup(btn2);};
+            btn3.onmousedown=function(){numbers(3);pressed(btn3)};
+            btn3.onmouseup=function(){museup(btn3);};
+            btn4.onmousedown=function(){numbers(4);pressed(btn4)};
+            btn4.onmouseup=function(){museup(btn4);};
+            btn5.onmousedown=function(){numbers(5);pressed(btn5)};
+            btn5.onmouseup=function(){museup(btn5);};
+            btn6.onmousedown=function(){numbers(6);pressed(btn6)};
+            btn6.onmouseup=function(){museup(btn6);};
+            btn7.onmousedown=function(){numbers(7);pressed(btn7)};
+            btn7.onmouseup=function(){museup(btn7);};
+            btn8.onmousedown=function(){numbers(8);pressed(btn8)};
+            btn8.onmouseup=function(){museup(btn8);};
+            btn9.onmousedown=function(){numbers(9);pressed(btn9)};
+            btn9.onmouseup=function(){museup(btn9);};
+            btn0.onmousedown=function(){numbers(0);pressed(btn0)};
+            btn0.onmouseup=function(){museup(btn0);};
+            btnac.onmousedown=function(){ac();pressed(btnac)};
+            btnac.onmouseup=function(){museup(btnac);}
+            btnpm.onmousedown=function(){if (parseInt(txt.innerText)>0){txt.innerText=-+txt.innerText} 
+                                    else if(parseInt(txt.innerText)<0){txt.innerText=txt.innerText.replace('-','')};
+                                    pressed(btnpm);};
+            btnpm.onmouseup=function(){museup(btnpm)};
+            btnps.onmousedown=function(){txt.innerText=parseFloat(txt.innerText)/100;pressed(btnps)};
+            btnps.onmouseup=function(){museup(btnps)}
+            btndot.onmousedown=function(){if(txt.innerText.includes(".",1)==false){numbers(".")};pressed(btndot)}
+            btndot.onmouseup=function(){museup(btndot)}
+            btnsum.onmousedown=function(){operator("+");pressed(btnsum)}
+            btnsum.onmouseup=function(){museup(btnsum)}
+            btnsub.onmousedown=function(){operator("-");pressed(btnsub)}
+            btnsub.onmouseup=function(){museup(btnsub)}
+            btndiv.onmousedown=function(){operator("/");pressed(btndiv)}
+            btndiv.onmouseup=function(){museup(btndiv);}
+            btnmul.onmousedown=function(){operator("*");pressed(btnmul)}
+            btnmul.onmouseup=function(){museup(btnmul)}
+            btneq.onmousedown=function(){answer();pressed(btneq)}
+            btneq.onmouseup=function(){museup(btneq)}
+
+        </script>
+
+    </body>
+</html>

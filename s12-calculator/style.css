@@ -1,0 +1,78 @@
+body{
+    background-color: gray;
+    margin: 0%;
+    justify-content: center;
+    align-content: center;
+}
+
+#main{
+    align-items: center;
+  background-color: #B9EBFA;
+  box-shadow: 
+    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+  height: 500px;
+  justify-content: center;
+  width: 25%;
+  margin: 2% 40%;
+}
+
+#label{
+    width: 80%;
+    top:20px;
+    margin:5%;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    font-size: 45px;
+    text-indent: 20px;
+    overflow-wrap: break-word;
+    /* background-color: black; */
+}
+
+#buttons{
+    display: flex;
+    height: 300px;
+    width: 90%;
+    margin: 5% 5%;
+    position: relative;
+    /* background-color: red; */
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+#buttons .col{
+    position: relative;
+    width: 25%;
+    
+
+}
+
+.btns{
+    align-items: center;
+    border: 0px;
+    border-radius: 14px;
+    background: #b9ebfa;
+    box-shadow:  5px 5px 10px #a3cfdc,
+                 -5px -5px 10px #cfffff;
+  width: 90%;
+  height: 50px;
+  margin: 10px;
+  margin-left: 1px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+#btnAC, #btnpm, #btnPS{
+    color: gray;
+}
+
+#btndiv,#btnmul,#btnsub,#btnsum,#btneq{
+    color: orange;
+}
+#btnzerocol{
+    width: 50%;
+    position: relative;
+}
