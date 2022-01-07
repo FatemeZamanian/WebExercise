@@ -1,0 +1,105 @@
+body{
+    
+    align-items: center;
+
+}
+
+#main{
+    width: 35%;
+    /* height: 1300px; */
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5% 30%;
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+table{
+    width: 15%;
+    margin:10% 22%;
+    margin-bottom: 10px;
+}
+
+.cell{
+    width: 80px;
+    height: 80px;
+    font-size: large;
+    border: 0px;
+    margin: 0px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(3px);
+    border:transparent solid;
+    border-radius: 10px;
+}
+
+.x{
+    background-color:rgba(248, 175, 187, 0.581);
+    color: darkred;
+}
+
+.o{
+    background-color: rgba(134, 212, 243, 0.534);
+    color: darkblue;
+}
+
+#scores{
+    display: flex;
+    flex-wrap:wrap;
+    width: 55%;
+    margin: 22%;
+    margin-top: 0px;
+    height: 60px;
+    margin-bottom: 5px;
+    
+
+}
+.score{
+    width: 30%;
+    height: 50%;
+    margin: 1%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:rgba(138, 26, 194, 0.15);
+    color: white;
+    font-size: large;
+    backdrop-filter: blur(3px);
+    text-align: center;
+}
+
+.mods{
+    width: 49%;
+    margin: .5% 24.5%;
+    color: rgb(179, 154, 179);
+    background-color: rgba(70, 8, 82, 0.646);
+    border-radius: 50px;
+    
+}
+#newg{
+    width: 70%;
+    margin: 15%;
+    margin-top: 20px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color:rgba(138, 26, 194, 0.15);
+    color:rgb(220, 170, 230);
+    font-size: large;
+    backdrop-filter: blur(3px);
+    border-radius: 30px;
+    border:purple 5px;
+}
+
+#winner{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    height: 40px;
+    margin-bottom: 60px;
+    color: white;
+    font-size: x-large;
+    background-color:rgba(138, 26, 194);
+    backdrop-filter: blur(3px);
+    border:purple 5px;
+}

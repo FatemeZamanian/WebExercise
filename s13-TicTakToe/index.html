@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="style.css" >
+    </head>
+    <body>
+        <div id="main">
+        <table>
+            <tr>
+                <td>
+                    <button onclick="play(0,0)" class="cell"></button>
+                </td>
+                <td>
+                    <button onclick="play(0,1)" class="cell"></button>
+                </td>
+                <td>
+                    <button onclick="play(0,2)" class="cell"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="play(1,0)" class="cell"></button>
+                </td>
+                <td>
+                    <button onclick="play(1,1)" class="cell"></button>
+                </td>
+                <td>
+                    <button onclick="play(1,2)" class="cell"></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="play(2,0)" class="cell"></button>
+                </td>
+                <td>
+                    <button onclick="play(2,1)" class="cell"></button>
+                </td>
+                <td>
+                    <button onclick="play(2,2)" class="cell"></button>
+                </td>
+            </tr>
+        </table>
+        <div id="scores">
+            <label class="score">Player 1</label>
+            <label class="score">Player 2</label>
+            <label class="score">Draw</label>
+            <label class="score"></label>
+            <label class="score"></label>
+            <label class="score"></label>
+        </div>
+        <div class="mods">
+        <input type="radio" id="one" name="mode">
+        <label for="one">Player vs Computer</label>
+        <br>
+        <input type="radio" id="two" name="mode">
+        <label for="one">Player vs Player</label>
+        </div>
+        <button id="newg">New Game</button>
+        <div id="winner">playing...</divl>
+
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
