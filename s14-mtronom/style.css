@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    background-color: rgb(3, 65, 84);
+}
+#main{
+    width: 60%;
+    height: 200px;
+    margin:5% 20%;
+    background-color:#040a3d;
+    border-radius: 100px;
+}
+
+#stop-start{
+    width: 10%;
+    border-radius: 100px;
+    background-color: #f28080;
+    border: 0px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: azure;
+}
+
+#continer{
+    display: flex;
+    width: 100%;
+    margin: 5%;
+    margin-top: 0px;
+}
+
+#topsec{
+    width: 80%;
+    height: 65px;
+    margin:0% 5%;
+    display: flex;
+    padding: 3%;
+}
+#txt{
+    font-size: large;
+    color: rgb(121, 115, 233);
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+#vallbl{
+    color: rgb(240, 57, 96);
+    font-size:50px;
+    margin-top: -12px;
+
+}
+
+#plsbtn{
+    width: 5%;
+    background-color: rgb(250, 119, 121);
+    border-radius: 100px;
+    border: 0px;
+}
+
+#rangs{
+    margin-top: 0px;
+    width: 80%;
+}
+#minbtn{
+    width: 5%;
+    background-color: rgb(250, 119, 121);
+    border-radius: 100px;
+    border: 0px;
+}
