@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+
+#pc{
+    width: 300px;
+    left: 500px;
+    top:150px;
+    position: absolute;
+    
+}
+#tr{
+    width: 50px;
+    left: 620px;
+    top:110px;
+    position: absolute;
+    z-index: 20;
+
+}
