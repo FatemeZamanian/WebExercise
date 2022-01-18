@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    color:rgb(91, 82, 85);
+    align-content: center;
+    
+}
+
+#btn-reg{
+    width: 25%;
+    font-size: 15px;
+    margin: 1% 38%;
+    /* margin: 20px 500px; */
+    border-radius: 100px;
+    background-color: rgb(117, 66, 160);
+    color: white;
+    font-weight: bolder;
+}
+#form{
+    width: 25%;
+    font-size: larger;
+    font-weight: bold;
+    direction: rtl;
+    display:none;
+    /* margin: 20px 500px; */
+    margin: auto;
+    background-color:rgb(249, 201, 211);
+}
+
+#first{
+    direction: ltr;
+    display: flex;
+    font-size: 12px;
+}
+p{
+    margin: 10px 20px;
+}
+h4{
+    margin: 3px 20%;
+    font-size: 1vw;
+}
+h6{
+    margin: 3px 40px;
+
+}
+.inp-main{
+    margin: 0px 20px 1% 0px;
+    width: 90%;
+    height: 35px;
+
+}
+
+.rbtn{
+    margin: 0px 20px 10px 0px;
+    width: 10px;
+    height: 10px;
+}
+.lrbtn{
+    font-size: 12px;
+}
+
+
+#wife-input{
+    margin: 0px 20px 10px 0px;
+    width: 250px;
+    height: 35px;
+    display: none;
+}
+#pwife{
+    display: none;
+}
+
+#child{
+    margin: 0px 20px 10px 0px;
+    width: 10px;
+    height: 10px;
+}
+
+#add{
+    position: absolute;
+    top:440px;
+    left:50%;
+    width: 2%;
+    background-color: green;
+
+}
+
+#sub{
+    position: absolute;
+    top:440px;
+    left:53%;
+    width: 2%;
+    background-color: red;
+}
+
+#submit{
+    width: 95%;
+    margin: 30px 1%;
+    background-color: rgb(221, 102, 157);
+    border: 0px;
+}
+
+.children{
+    width: 80%;
+    margin-top: 10px;
+    margin-right: 1%;
+}
+#child-main{
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    #form{
+        width: 100%;
+    }
+    h4{
+        margin: 3px 25%;
+        font-size: 2vw;
+    }
+
+}

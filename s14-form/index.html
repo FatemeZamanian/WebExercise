@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="style.css" >
+       
+    </head>
+    
+    <body>
+       <button id="btn-reg">ثبت نام</button>
+       <div id="form">
+           <div id="first">
+               <label for="dark" style="margin:10px 0px 10px 3px;">حالت تاریک</label>
+               <input id="dark" type="checkbox" style="margin:10px 0px 10px 3px;">
+               <p style="margin:10px 0px 10px  60%;">ثبت نام</p>
+           </div>
+           <hr>
+           <p>نام</p>
+           <input class="inp-main" type="text" placeholder="Enter name">
+           <p>ایمیل</p>
+           <input class="inp-main" type="text" placeholder="Enter Email">
+           <h4>ایمیل شما به کاربران نمایش داده نمیشود</h4>
+           <p>کلمه عبور</p>
+           <input class="inp-main" type="password" placeholder="Password">
+           <br>
+           <input class="rbtn" type="radio" name="m" value="XS" id="no-married">
+           <label class="lrbtn" for="married">مجرد</label>
+           <br>
+           <input class="rbtn" type="radio" name="m" value="S" id="married">
+            <label class="lrbtn" for="s">متاهل</label>
+            <br>
+            <p id="pwife" >نام همسر</p>
+           <input id="wife-input" type="text" placeholder=" name">
+           
+           <input type="checkbox" id="child">
+           <label for="child" class="lrbtn" >دارای فرزند</label>
+           <div id="child-main">
+           <h6 id="ch">فرزندان</h6>
+           <button id="add">+</button>
+           <button id="sub">-</button>
+            </div>
+           <button id="submit">ثبت نام</button>
+
+           
+       </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
